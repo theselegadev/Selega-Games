@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(40deg, rgba(12, 97, 136, 0.678), rgba(22, 172, 218, 0.699));
+    color: white;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.226);
+    padding: 5px;
+}
+.card-welcome{
+    font-size: larger;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 600px;
+    height: 150px;
+    background-color: white;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.377));
+    transition: all 700ms ease-in-out;
+    z-index: 4;
+}
+.card-welcome .box-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 50%;
+}
+.card-welcome .box-top button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: large;
+    background-color: rgb(213, 229, 245);
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.247));
+    cursor: pointer;
+}
+.card-welcome .box-bottom{
+    height: 80%;
+}
+.card-welcome .box-bottom .box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
