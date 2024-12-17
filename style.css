@@ -144,10 +144,16 @@ header{
         width: 350px;
     }
     .card-welcome{
+        position: fixed;
         width: 370px;
         height: 200px;
     }
     .card-welcome .box-text p{
         width: 80%;
+    }
+    .back-home{
+        padding: 15px;
+        width: 145px;
+        font-size: medium;
     }
 }

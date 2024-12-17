@@ -171,9 +171,12 @@ header{
 
  @media(max-width:900px){
     .card-choices{
-        width: 400px;
+        width: 370px;
         height: 530px;
         top: 20%;
+    }
+    .container-buttons{
+        width: 100%;
     }
     .card-choices .box-button{
         width: 100%;
@@ -185,8 +188,8 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 7px;
-        padding-right: 7px;
+        padding-left: 5px;
+        padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -203,6 +206,6 @@ header{
         width: 180px;
     }
     .card-winner{
-        width: 400px;
+        width: 370px;
     }
  }
