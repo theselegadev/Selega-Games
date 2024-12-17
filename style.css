@@ -85,6 +85,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card-selegapo .box-title, .card-selegapalavras .box-title, .card-selegavelha .box-title{
     position: absolute;
@@ -133,5 +134,20 @@ header{
     }
     100%{
         opacity: 1;
+    }
+}
+/* Responsividade */
+
+@media(max-width: 900px){
+    .card-selegapo, .card-selegapalavras, .card-selegavelha{
+        margin-top: 40px;
+        width: 350px;
+    }
+    .card-welcome{
+        width: 370px;
+        height: 200px;
+    }
+    .card-welcome .box-text p{
+        width: 80%;
     }
 }

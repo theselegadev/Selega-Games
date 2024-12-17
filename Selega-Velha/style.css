@@ -12,11 +12,32 @@ body{
     overflow-x: hidden;
 }
 header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     background-image: linear-gradient(40deg, rgba(12, 97, 136, 0.678), rgba(22, 172, 218, 0.699));
     color: white;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.226);
     padding: 5px;
+}
+.back-home{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 20px;
+    background-image: linear-gradient(20deg, rgb(185, 175, 175), rgb(228, 226, 226));
+    cursor: pointer;
+    box-shadow: 0px 5px 0px gray;
+    font-size: large;
+}
+.back-home:hover{
+    background-image: linear-gradient(20deg, rgb(156, 154, 154),rgb(163, 159, 159));
 }
 .block01{
     height: 50vh;
